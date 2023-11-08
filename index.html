@@ -44,6 +44,12 @@
                  return valeur;
                 }
                 
+                <form method="get" action="">
+                <p>
+                    <label for="ameliorer">Des conseils pour améliorer mon site ?</label><br>
+                    <textarea name="ameliorer" id="ameliorer"></textarea>
+                </p>
+                </form>
                 function fixer_valeur(indicateur, valeur, expire) //Témoin de connexion reste sauvegardé au delà de la session navigateur actuelle pour contenir une mention du moment auquel 
                 {                                                //le navigateur devra effacer le témoin de connexion, pour éviter de sauvegarder des témoins de connexion éternellement.
                  var maintenant = new Date(); //Enregistre la date maintenant

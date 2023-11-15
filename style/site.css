@@ -33,7 +33,6 @@ body{
     margin-right: 40px;
     border: rgb(240, 197, 105) solid;
     border-style:outset;
-
 }
 
 .dbfz{width: auto; height: auto;
@@ -42,11 +41,19 @@ body{
 .band{ width: 100%;height: auto;}
 
 .bg{
-    display: inline;
-    background-color:darkgreen;
-    color:antiquewhite;
-
+    display: inline; 
+    border-color: rgb(235, 193, 101);
+    background-color:rgb(41, 114, 182);
+    color:rgb(255, 254, 252);
+    border-radius: 10px;
 }
+
+.bg:hover{
+    border-color: rgb(204, 160, 64);
+    background-color: rgb(82, 145, 204);
+    color: rgb(255, 251, 245);
+
+}   
 
 .desc{margin-right: 50%;
     color: black;
@@ -57,5 +64,9 @@ body{
 
 }
 
+.gogeta{
+    position:static;
+    height: auto;
+    width: auto;
 
-
+}
